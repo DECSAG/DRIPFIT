@@ -13,10 +13,8 @@
                 <div class="logo">DRIPFIT</div>
                 <ul class="nav-links">
                     <li><a href="#home">Home</a></li>
-                    <li><a href="#shop">Shop</a></li>
-                    <li><a href="#about">About</a></li>
+                    <li><a href="#shop">Catalogue</a></li>
                     <li><a href="#order">Order</a></li>
-                    <li><a href="#cart" class="cart-icon">🛒 Cart</a></li>
                 </ul>
             </div>
         </nav>
@@ -26,87 +24,70 @@
         <div class="hero-content">
             <h1>DRIPFIT</h1>
             <p>Express Your Style. Own Your Look.</p>
-            <a href="#shop" class="cta-button">Shop Now</a>
+            <a href="#shop" class="cta-button">Explore Catalogue</a>
         </div>
     </section>
 
     <section id="shop" class="shop">
         <div class="container">
-            <h2>Featured Collection</h2>
+            <h2>Our Catalogue</h2>
+            <p class="catalogue-subtitle">Select your favorite design and customize your order</p>
             <div class="product-grid">
-                <div class="product-card">
-                    <div class="product-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                <div class="product-card" data-product-id="1" data-product-name="Classic Drip" data-product-price="29.99">
+                    <div class="product-image" style="background: linear-gradient(135deg, #001f3f 0%, #0074D9 100%);">
                         <span class="product-label">NEW</span>
                     </div>
                     <h3>Classic Drip</h3>
                     <p class="product-price">$29.99</p>
                     <p class="product-desc">Comfortable classic tee with premium fabric</p>
-                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="select-design" data-product-id="1">Select Design</button>
                 </div>
 
-                <div class="product-card">
-                    <div class="product-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                <div class="product-card" data-product-id="2" data-product-name="Urban Street" data-product-price="24.99">
+                    <div class="product-image" style="background: linear-gradient(135deg, #FF6B35 0%, #FF8C42 100%);">
                         <span class="product-label">SALE</span>
                     </div>
                     <h3>Urban Street</h3>
                     <p class="product-price"><span class="original">$39.99</span> $24.99</p>
                     <p class="product-desc">Modern street style with bold graphics</p>
-                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="select-design" data-product-id="2">Select Design</button>
                 </div>
 
-                <div class="product-card">
-                    <div class="product-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                <div class="product-card" data-product-id="3" data-product-name="Summer Vibes" data-product-price="34.99">
+                    <div class="product-image" style="background: linear-gradient(135deg, #001f3f 0%, #FF6B35 100%);">
                         <span class="product-label">HOT</span>
                     </div>
                     <h3>Summer Vibes</h3>
                     <p class="product-price">$34.99</p>
                     <p class="product-desc">Light and breathable perfect for summer</p>
-                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="select-design" data-product-id="3">Select Design</button>
                 </div>
 
-                <div class="product-card">
-                    <div class="product-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                <div class="product-card" data-product-id="4" data-product-name="Retro Vibes" data-product-price="32.99">
+                    <div class="product-image" style="background: linear-gradient(135deg, #FF8C42 0%, #FFD166 100%);">
                     </div>
                     <h3>Retro Vibes</h3>
                     <p class="product-price">$32.99</p>
                     <p class="product-desc">Vintage inspired design with modern comfort</p>
-                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="select-design" data-product-id="4">Select Design</button>
                 </div>
 
-                <div class="product-card">
-                    <div class="product-image" style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);">
+                <div class="product-card" data-product-id="5" data-product-name="Night Edition" data-product-price="36.99">
+                    <div class="product-image" style="background: linear-gradient(135deg, #001f3f 0%, #0074D9 100%);">
                     </div>
                     <h3>Night Edition</h3>
                     <p class="product-price">$36.99</p>
                     <p class="product-desc">Dark colors for those night-time looks</p>
-                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="select-design" data-product-id="5">Select Design</button>
                 </div>
 
-                <div class="product-card">
-                    <div class="product-image" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
+                <div class="product-card" data-product-id="6" data-product-name="Pastel Dreams" data-product-price="31.99">
+                    <div class="product-image" style="background: linear-gradient(135deg, #FF6B35 0%, #FFA07A 100%);">
                     </div>
                     <h3>Pastel Dreams</h3>
                     <p class="product-price">$31.99</p>
                     <p class="product-desc">Soft colors for a gentle, stylish look</p>
-                    <button class="add-to-cart">Add to Cart</button>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="about" class="about">
-        <div class="container">
-            <h2>About DRIPFIT</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>DRIPFIT is your ultimate destination for premium, stylish t-shirts that express your personality and individuality.</p>
-                    <p>We believe that fashion should be accessible, comfortable, and authentic. Our collection is carefully curated to bring you the latest trends and timeless classics.</p>
-                    <ul class="features">
-                        <li>✓ Premium Quality Fabrics</li>
-                        <li>✓ Sustainable Production</li>
-                        <li>✓ Fast & Free Shipping</li>
-                        <li>✓ 30-Day Money Back Guarantee</li>
-                    </ul>
+                    <button class="select-design" data-product-id="6">Select Design</button>
                 </div>
             </div>
         </div>
@@ -114,13 +95,149 @@
 
     <section id="order" class="order">
         <div class="container">
-            <h2>Place Your Order</h2>
-            <p class="order-subtitle">Fill in your details below to order your favorite DRIPFIT tees!</p>
-            <div class="form-wrapper">
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdu_Yw1esmSzYBLuEPkcUJHrUbr8k4yZf6g2Q8oOEmT8gqnwA/viewform?embedded=true" width="100%" height="1400" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+            <h2>Complete Your Order</h2>
+            <p class="order-subtitle">Fill in your details to finalize your DRIPFIT purchase</p>
+            <div class="order-wrapper">
+                <div class="order-form-container">
+                    <form class="order-form" id="orderForm">
+                        <!-- Selected Products Summary -->
+                        <div class="selected-products-summary">
+                            <h3>📦 Your Selection</h3>
+                            <div id="selected-items-list" class="items-list">
+                                <p style="text-align: center; color: #999;">Select designs from the catalogue to add items</p>
+                            </div>
+                            <div class="order-total">
+                                <span>Total Amount:</span>
+                                <span id="total-amount">$0.00</span>
+                            </div>
+                        </div>
+
+                        <!-- Personal Information -->
+                        <div class="form-section">
+                            <h3>👤 Personal Information</h3>
+                            <div class="form-group">
+                                <label for="fullname">Full Name *</label>
+                                <input type="text" id="fullname" name="fullname" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000" required>
+                            </div>
+                        </div>
+
+                        <!-- Shipping Address -->
+                        <div class="form-section">
+                            <h3>📍 Shipping Address</h3>
+                            <div class="form-group">
+                                <label for="address">Street Address *</label>
+                                <input type="text" id="address" name="address" placeholder="123 Main Street" required>
+                            </div>
+                            <div class="form-group-row">
+                                <div class="form-group">
+                                    <label for="city">City *</label>
+                                    <input type="text" id="city" name="city" placeholder="New York" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="state">State/Province *</label>
+                                    <input type="text" id="state" name="state" placeholder="NY" required>
+                                </div>
+                            </div>
+                            <div class="form-group-row">
+                                <div class="form-group">
+                                    <label for="zipcode">ZIP/Postal Code *</label>
+                                    <input type="text" id="zipcode" name="zipcode" placeholder="10001" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="country">Country *</label>
+                                    <input type="text" id="country" name="country" placeholder="United States" required>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Size & Quantity Selection -->
+                        <div class="form-section">
+                            <h3>👕 Size & Quantity</h3>
+                            <div class="form-group">
+                                <label for="size">Size *</label>
+                                <select id="size" name="size" required>
+                                    <option value="">Select Size</option>
+                                    <option value="XS">Extra Small (XS)</option>
+                                    <option value="S">Small (S)</option>
+                                    <option value="M">Medium (M)</option>
+                                    <option value="L">Large (L)</option>
+                                    <option value="XL">Extra Large (XL)</option>
+                                    <option value="XXL">2XL (XXL)</option>
+                                    <option value="XXXL">3XL (XXXL)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="quantity">Quantity *</label>
+                                <input type="number" id="quantity" name="quantity" min="1" max="100" value="1" required>
+                            </div>
+                        </div>
+
+                        <!-- Additional Information -->
+                        <div class="form-section">
+                            <h3>📝 Additional Information</h3>
+                            <div class="form-group">
+                                <label for="special-requests">Special Requests or Notes</label>
+                                <textarea id="special-requests" name="special-requests" rows="4" placeholder="Any special customization or requests?"></textarea>
+                            </div>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <button type="submit" class="submit-btn">Place Order</button>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
+
+    <!-- Modal for Product Selection -->
+    <div id="productModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-product-name">Product Name</h2>
+            <div class="modal-body">
+                <div class="modal-product-image" id="modal-product-image"></div>
+                <div class="modal-form">
+                    <div class="form-group">
+                        <label for="modal-size">Size *</label>
+                        <select id="modal-size" required>
+                            <option value="">Select Size</option>
+                            <option value="XS">Extra Small (XS)</option>
+                            <option value="S">Small (S)</option>
+                            <option value="M">Medium (M)</option>
+                            <option value="L">Large (L)</option>
+                            <option value="XL">Extra Large (XL)</option>
+                            <option value="XXL">2XL (XXL)</option>
+                            <option value="XXXL">3XL (XXXL)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="modal-quantity">Quantity *</label>
+                        <input type="number" id="modal-quantity" min="1" max="10" value="1" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="modal-color">Color Preference</label>
+                        <select id="modal-color">
+                            <option value="">Choose Color</option>
+                            <option value="Navy Blue">Navy Blue</option>
+                            <option value="Orange">Orange</option>
+                            <option value="Black">Black</option>
+                            <option value="White">White</option>
+                            <option value="Gray">Gray</option>
+                        </select>
+                    </div>
+                    <button type="button" class="add-to-cart-btn" id="addToCartBtn">Add to Order</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer>
         <div class="container">
